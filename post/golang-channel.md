@@ -10,9 +10,9 @@ Golang中Channel，可以用for range来遍历，发送方可以通过close一�
 > `ok` is `false` if there are no more values to receive and the channel is closed.
 
 > The loop `for i := range c` receives values from the channel repeatedly until it is closed.
-```
+
 ## 做一个Test
-```
+
 ```Go
 func main() {
     c := make(chan int)
